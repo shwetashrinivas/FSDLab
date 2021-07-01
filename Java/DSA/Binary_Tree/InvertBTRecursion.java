@@ -79,3 +79,10 @@ class BinaryTree
 
 	} 
 } 
+
+/*
+Since each node in the tree is visited only once, the time complexity is O(n), where n is the number of nodes in the tree.
+
+Because of recursion, O(h) function calls will be placed on the stack in the worst case, where h is the height of the tree. 
+Because h∈O(n), the space complexity is O(n).
+*/
